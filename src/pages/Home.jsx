@@ -28,7 +28,7 @@ export default function Home({
             <div className="contentTop">
                 <h1>{searchValue ? `Поиск по запросу: ${ searchValue}` : 'Все кроссовоки'}</h1>
                 <div className="search-block">
-                    <img alt="Search" src="/img/Search.svg"/>
+                    <img alt="Search" src="img/Search.svg"/>
                     {searchValue && <img onClick={searchRemove} className="clear" src="img/btn-remove.svg" alt="Clear"/>}
                     <input type="text" placeholder="Поиск ..."  value={searchValue} onChange={searchChange}/>
                 </div>

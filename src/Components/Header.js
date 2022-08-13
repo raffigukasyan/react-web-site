@@ -10,7 +10,7 @@ export default function Header({onClickCard}) {
         <header>
           <Link to="/">
             <div className="headerLeft">
-                <img width="40px" height="40px" src="/img/logo.png" alt="logo"/>
+                <img width="40px" height="40px" src="img/logo.png" alt="logo"/>
                 <div className="headerInfo">
                   <h3>React Sneakers</h3>
                   <p>Магазин лучших кроссовок</p>
@@ -19,7 +19,7 @@ export default function Header({onClickCard}) {
           </Link>
         <ul className="headerRight">
           <li onClick={onClickCard}>
-            <img src="/img/cat.svg" alt="cat"/>
+            <img src="img/cat.svg" alt="cat"/>
             <span>{totalPrice } руб.</span>
           </li>
           <li>

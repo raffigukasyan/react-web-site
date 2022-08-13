@@ -17,7 +17,7 @@ export default function Info({title, image, description}) {
             <h2>{title}</h2>
             <p>{description}</p>
             <button onClick={() => setCardOpened(false)} className="greenBtn">
-                <img src="/img/arrow.svg" alt="Arrow"/>
+                <img src="img/arrow.svg" alt="Arrow"/>
                 Вернуться назад
             </button>
         </div>
