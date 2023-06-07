@@ -39,6 +39,8 @@ function App() {
 
     }
     fetchData();
+    console.log(cartItems);
+    
   }, []);
 
 
